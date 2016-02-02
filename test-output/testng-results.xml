@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Usig reporrter to log]]>
+    </line>
+    <line>
+      <![CDATA[Usig reporrter to log]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5756" started-at="2016-01-31T22:33:32Z" finished-at="2016-01-31T22:33:38Z">
+    <groups>
+      <group name="smoke">
+        <method signature="testcase.login()[pri:0, instance:tests.testcase@5034c75a]" name="login" class="tests.testcase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="5756" started-at="2016-01-31T22:33:32Z" finished-at="2016-01-31T22:33:38Z">
+      <class name="tests.testcase">
+        <test-method status="PASS" signature="startup()[pri:0, instance:tests.testcase@5034c75a]" name="startup" is-config="true" duration-ms="3580" started-at="2016-01-31T14:33:32Z" finished-at="2016-01-31T14:33:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usig reporrter to log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="loginTwo()[pri:0, instance:tests.testcase@5034c75a]" name="loginTwo" duration-ms="3" started-at="2016-01-31T14:33:36Z" finished-at="2016-01-31T14:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTwo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.testcase@5034c75a]" name="closeBrowser" is-config="true" duration-ms="4" started-at="2016-01-31T14:33:36Z" finished-at="2016-01-31T14:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="startup()[pri:0, instance:tests.testcase@5034c75a]" name="startup" is-config="true" duration-ms="2150" started-at="2016-01-31T14:33:36Z" finished-at="2016-01-31T14:33:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Usig reporrter to log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.testcase@5034c75a]" name="login" duration-ms="0" started-at="2016-01-31T14:33:38Z" depends-on-methods="tests.testcase.loginTwo" finished-at="2016-01-31T14:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.testcase@5034c75a]" name="closeBrowser" is-config="true" duration-ms="8" started-at="2016-01-31T14:33:38Z" finished-at="2016-01-31T14:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
