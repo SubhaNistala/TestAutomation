@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testSuite>
+	<testSuite name = "Automation" />
+	
+	<test>
+	<Test name = "Smoke Tests" />
+	<parameters>
+	<parameters name = "userid"  value = "test" />
+	</parameters>
+	
+	<groups>
+		<run>
+			<include name = "smoke" />
+		</run>
+	</groups>
+	
+	<classes>
+		<class name = "tests.testcase" />
+	
+	</classes>
+	
+	</test>
+</testSuite>
